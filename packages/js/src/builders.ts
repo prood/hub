@@ -21,6 +21,7 @@ import * as utils from './utils';
 type MessageDataOptions = {
   fid: number;
   network: flatbuffers.FarcasterNetwork;
+  /** unix milliseconds timestamp */
   timestamp?: number;
 };
 
